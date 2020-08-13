@@ -3,12 +3,12 @@
 using namespace std;
 int main() {
 
-	int n{ 0 };
+	int a{ 0 };
 	cout << "enter desired number" << endl;
-	cin >> n;
-	int x{ n }, y{ 1 }, z{ n };
-	for (int i{ 0 }; i < n; i++) {
-		for (int j{ n }; j > 0; j--) {
+	cin >> a;
+	int x{ a }, y{ 1 }, z{ a };
+	for (int i{ 0 }; i < a; i++) {
+		for (int j{ a }; j > 0; j--) {
 
 			while (y <= x)
 			{
@@ -24,7 +24,7 @@ int main() {
 			z = z - 1;// updating printing variable
 		};
 		x = x - 1;
-		z = n;// resseting printing variable
+		z = a;// resseting printing variable
 		cout << endl;// creating new line
 
 	};
