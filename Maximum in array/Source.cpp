@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// pushing onto branch maximum in array
+
 int64_t search_max(int64_t* a, size_t size);
 
 int64_t search_max(int64_t* a, size_t size) {
